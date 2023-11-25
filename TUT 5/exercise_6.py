@@ -8,5 +8,5 @@ while True:
         guess=str(input("Make your guess :"))
         turns+=1
     else:
-        print("Sorry your turns are over")
+        print("Sorry your turns are over!")
         break
