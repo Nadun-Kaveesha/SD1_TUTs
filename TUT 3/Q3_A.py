@@ -25,7 +25,7 @@ if choice==1:
 
 
 
-elif choice==2:
+if choice==2:
     fahrenheit=input("Enter the temperature in fahrenheit :")
     try:
         fahrenheit=float(fahrenheit)
