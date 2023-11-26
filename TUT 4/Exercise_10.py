@@ -12,7 +12,7 @@ while i<5:
     elif user_num<hidden_no:
         print("Too Low\n")
     elif user_num==hidden_no:
-        print("You Guessed the correct number!,It was ",str(hidden_no)+" ."+" You took ",str(i)+" "+"Attempts")
+        print(f"You Guessed the correct number!,It was {hidden_no} . You took {i} Attempts")
         break
     
 if i==5:
