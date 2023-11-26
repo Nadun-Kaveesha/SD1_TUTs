@@ -3,8 +3,8 @@ while True:
 
      expression = input("Enter an arithmetic expression (or 'exit' to quit): ")
 
-if expression == 'exit':
-     break
+     if expression == 'exit':
+          break
 
 try:
          result = eval(expression)
